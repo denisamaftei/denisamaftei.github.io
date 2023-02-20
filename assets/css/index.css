@@ -28,6 +28,15 @@ background-image: url("../images/bg-01-mobile.jpg");
     color:#fff;
     text-align: center;
 }
+.first-text, .second-text, .third-text, .btn-container{
+    transform: scale(0.7);
+    animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
 .first-text {
     font-weight: 700;
     font-size: 12vw;
