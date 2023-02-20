@@ -32,6 +32,7 @@ background-image: url("../images/bg-01-mobile.jpg");
     transform: scale(0.7);
     animation: scale 1s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
+
 @keyframes scale {
     100% {
       transform: scale(1);
@@ -290,6 +291,7 @@ background-color: var(--orange);
     transform: translateY(0);
     opacity: 1;
   }
+  
   a.nostyle:link {
     text-decoration: inherit;
     color: inherit;
@@ -499,6 +501,14 @@ a.nostyle:visited {
     .partners-container {
         margin-top:1%;
         padding: 2% 20%
+    }
+    .more-link {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .orange-btn {
+        height: auto;
     }
     
 }
