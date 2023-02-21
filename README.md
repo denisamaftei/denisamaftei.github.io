@@ -22,6 +22,9 @@ You will also need to configure your Firebase project by adding your Firebase co
 ## Authors
 * Denisa-Mihaela Maftei - Initial work - denisamaftei
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/denisamaftei/denisamaftei.github.io/blob/main/LICENSE) file for details.
+
 ## Acknowledgments
 This project was created as part of a personal task to practice front-end web development using popular tools and frameworks, along with back-end serverless architecture. 
 <br><br>Special thanks to the Firebase team for providing an easy-to-use serverless platform.
